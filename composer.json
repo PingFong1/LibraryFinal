@@ -1,0 +1,15 @@
+{
+    "name": "library/management-system",
+    "description": "Library Management System with MFA Support",
+    "type": "project",
+    "require": {
+        "christian-riesen/otp": "^2.7",
+        "paragonie/constant_time_encoding": "^2.6",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Library\\": "controller/"
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.borrowing-monitoring-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 30px;
+}
+.page-header {
+    background-color: #003161;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+.borrower-details {
+    cursor: pointer;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: none;
+}
+
+.borrowing-history-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 10px;
+}
+.page-header {
+    background-color: #003161;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+/* Maintain table scale */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Optional: Set a fixed width for the container */
+.container-fluid {
+    max-width: 1600px; /* Adjust according to your design */
+    margin: 0 auto;
+}
+
+/* Example media query */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .table-responsive {
+        font-size: 12px;
+    }
+}
+
+.borrowing-monitoring-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 30px;
+    margin-top: 30px;
+}
+.page-header {
+    background-color: #003161;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-warning:disabled {
+    opacity: 1;
+    cursor: not-allowed;
+}
+
+.pending-resource {
+    position: relative;
+}
+
+.pending-resource::after {
+    content: "PENDING";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffc107;
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+}

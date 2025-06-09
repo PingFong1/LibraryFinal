@@ -1,0 +1,48 @@
+.card {
+    transition: transform 0.2s;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-img-top img {
+    max-width: 100%;
+    height: auto;
+}
+
+.badge {
+    font-size: 0.8em;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card-content:hover {
+    background-color: rgba(0,0,0,0.02);
+}
+
+.resource-details p {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.resource-details strong {
+    color: #666;
+    min-width: 120px;
+    display: inline-block;
+}
+
+.offcanvas {
+    width: 400px !important;
+}
+
+@media (max-width: 576px) {
+    .offcanvas {
+        width: 100% !important;
+    }
+} 
